@@ -1,6 +1,4 @@
-﻿using System.Text.Json.Serialization;
-
-namespace Movies.Models
+﻿namespace Movies.Models
 {
     public class Movie
     {
@@ -8,8 +6,6 @@ namespace Movies.Models
 
         public string Title { get; set; }
         
-        //public List<Genre> Genres { get; set; }
-
         public int Year { get; set; }
     }
 }

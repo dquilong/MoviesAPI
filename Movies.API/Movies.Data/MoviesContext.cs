@@ -6,7 +6,6 @@ namespace Movies.Data
     public class MoviesContext : DbContext
     {
         public DbSet<Movie> Movies { get; set; }
-        //public DbSet<Genre> Genres { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
